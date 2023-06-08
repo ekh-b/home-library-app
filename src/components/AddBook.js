@@ -33,7 +33,8 @@ const AddBook = ({updateBookData}) => {
     }
     
     const baseApiUrl = 'https://www.googleapis.com/books/v1/volumes';
-    const apiKey = 'AIzaSyBNZW4NF0E0ISmTN7HQbwaHL6aRB3QIpqQ';
+    const apiKey = 'AIzaSyBTj9s7QkxBtedWy3PPj5KQlAlo_s19bZI';
+    
  
     try {
       const isbnUrl = `${baseApiUrl}?q=isbn:${searchInput}&key=${apiKey}`;
